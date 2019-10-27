@@ -9,7 +9,7 @@ import javax.persistence.ManyToOne;
 
 @Entity
 public class Lance {
-
+	
 	@Id @GeneratedValue
 	private int id;
 	private double valor;
